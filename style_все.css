@@ -1,0 +1,340 @@
+body {
+	margin: 0px;
+}
+.article {
+	background: url(./image/foto/header-bg.png);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+    flex-direction: column;
+}
+.header {
+	display: flex;
+	color: white;
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 100%;
+}
+.block {
+	display: flex;
+	justify-content: space-between;
+	flex: 1;
+}
+.main-text {
+	flex: 1;
+	height:100px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 100px;
+	text-align: center;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.anchor {
+	margin: 25px 35px 0px 35px;
+    position: relative;
+    flex: 0 0 150px;
+}
+.anchor svg {
+	position: absolute;
+    width: 100%;
+    height: 150px;
+}
+.block-big {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	flex: 1;
+}
+.centr {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.address {
+	position: relative;
+	width: 60px;
+}
+.rotate {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	line-height: 60px;
+	color: white;
+	position: absolute;
+	width: max-content;
+    top: calc(50% - 30px);
+    transform: translateX(-50%) rotate(270deg);	
+    left: 50%;
+}
+.name-cafe {
+	display: flex;
+ 	flex-direction: column;
+ 	color: white;
+ 	margin: 0px 81px 0px 81px;
+ 	align-items: center;
+}
+.restaurant {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.5em;
+	text-transform: uppercase;
+}
+.name {
+	font-family: 'DM Serif Display', serif;
+	font-size: 96px;
+	line-height: 139px;
+	width: 998px;
+	 text-align: center;
+}
+.yel-line {
+	width: 60px;
+	height: 5px;
+	border-radius: 5px;
+	background-color: #E8C300; 
+	margin: 10px auto 10px auto;
+
+}
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	width: 440px;
+	margin: 0px auto 0px auto;
+}
+.button { 
+	font-size: 12px;
+	text-align: center;
+	line-height: 60px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 5px;
+	width: 200px;
+	margin: 20px;
+}
+.yellow {
+	background: #E8C300;
+	border-color: #E8C300;
+}
+.circle svg {
+	margin-top: 15px;
+}
+.social {
+	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+}
+.f {
+	text-align: center;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 50%;
+	line-height: 60px;
+	height: 60px;
+	width: 60px;
+	margin: 10px 0px 10px 0px;
+}
+.f svg {
+	vertical-align: middle;
+}
+.outline {
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 50%;
+	line-height: 40px;
+	height: 60px;
+	width: 60px;
+	margin: 60px 0px 10px 0px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	bottom: 83px;
+
+}
+.circle {
+	background: #FFFFFF;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	margin-top: 10px;
+}
+.article2 {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+}
+.texts {
+	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	justify-content: center;
+ 	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	width: 600px;
+	letter-spacing: 0.5px;
+}
+.page-block {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	flex: 1;
+}
+.title {
+	font-family: 'DM Serif Display', serif;
+	font-size: 36px;
+	line-height: 48px;
+	text-align: center;
+}
+.yel-line2 {
+	width: 60px;
+	height: 5px;
+	border-radius: 5px;
+	background-color: #E8C300;
+	margin: 0 auto;
+}
+.bolt {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 28px;
+	margin: 15px auto;
+}
+.text {
+	margin: 15px auto;
+	height: 180px;
+}
+.fotos {
+	display: flex;
+ 	align-items: center;
+ 	margin: 80px;
+ 	filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.5));
+	border-radius: 5px;
+}
+.frame {
+	width: 250px;
+	height: 250px;
+	border: 20px solid #E8C300;
+	border-radius: 5px;
+	position: absolute;
+	right: -90px;
+
+}
+.article3 {
+	background: url(./image/foto/specialty.png);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+.white {
+	letter-spacing: 0.5em;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 100px;
+	text-align: center;
+}
+.frame2 {
+	width: 250px;
+	height: 250px;
+	border: 20px solid #E8C300;
+	border-radius: 5px;
+	position: absolute;
+	right: 380px;
+}
+.article4 {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	flex: 1;
+}
+.table {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	flex: 1;
+}
+.bp {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	flex: 1;
+}
+.all {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	flex: 1;
+}
+input {
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 40px;
+	color: black;
+	border: none;
+	background-color: #E5E5E5;
+	border-radius: 5px;
+	width: 257px;
+	margin: 5px;
+	padding: 10px;
+	outline: none;
+}
+input::placeholder {
+	color: rgba(51, 51, 51, 0.5);
+}
+.xyi {
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 60px;
+	color: black;
+	border-radius: 5px;
+	border: none;
+	width: 564px;
+	background-color: #E8C300;
+	color: #FFFFFF;
+	padding: 0;
+	margin: 5px;
+}
+.grey {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(51, 51, 51, 0.5);
+	line-height: 100px;
+}
+.article5 {
+	background: url(./image/foto/specialty3.png);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+}
