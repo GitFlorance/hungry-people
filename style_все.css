@@ -2,7 +2,7 @@ body {
 	margin: 0px;
 }
 .article {
-	background: url(./image/foto/header-bg.png);
+	background: url(./images/foto/header-bg.png);
 	background-position: center;
 	background-size: cover;
 	width: 100%;
@@ -229,7 +229,7 @@ body {
 
 }
 .article3 {
-	background: url(./image/foto/specialty.png);
+	background: url(./images/foto/specialty.png);
 	background-position: center;
 	background-size: cover;
 	width: 100%;
@@ -329,7 +329,7 @@ input::placeholder {
 	line-height: 100px;
 }
 .article5 {
-	background: url(./image/foto/specialty3.png);
+	background: url(./images/foto/specialty3.png);
 	background-position: center;
 	background-size: cover;
 	width: 100%;
